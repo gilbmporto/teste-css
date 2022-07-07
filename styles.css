@@ -1,0 +1,68 @@
+/* Place your CSS styles in this file */
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body {
+    background-color: rgb(14, 14, 53);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+img {
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    visibility: hidden;
+}
+
+.mensagem-oculta {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#mensagem-suspeita {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.botao-suspeito {
+    display: block;
+    text-align: center;
+    align-content: center;
+    width: 200px;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: coral;
+    color: rgb(252, 252, 252);
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.botao-suspeito:hover {
+    background-color: rgb(141, 71, 46);
+}
